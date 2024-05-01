@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <header><h1 class="poppins-regular" >Calculadora</h1></header>
+  <body>
+    <main>
+    <audio id="myAudio" src="song/quack_5.mp3"></audio>
+
+      <section class="section1">
+        <text id="Resultado"></text>
+      </section>
+      <section class="section2">
+        <button class="btn" onclick="insert('1')">1</button>
+        <button class="btn" onclick="insert('2')">2</button>
+        <button class="btn" onclick="insert('3')">3</button>
+        <button class="btn" onclick="insert('+')">+</button>
+        <button class="btn" onclick="insert('4')">4</button>
+        <button class="btn" onclick="insert('5')">5</button>
+        <button class="btn" onclick="insert('6')">6</button>
+        <button class="btn" onclick="insert('-')">-</button>
+        <button class="btn" onclick="insert('7')">7</button>
+        <button class="btn" onclick="insert('8')">8</button>
+        <button class="btn" onclick="insert('9')">9</button>
+        <button class="btn" onclick="insert('*')">*</button>
+        <button class="btn" onclick="clean()">C</button>
+        <button class="btn" onclick="insert('0')">0</button>
+        <button class="btn" onclick="calcular()">=</button>
+        <button class="btn" onclick="insert('/')">/</button>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
